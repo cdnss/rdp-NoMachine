@@ -7,4 +7,4 @@ ENV NX_PUBLICKEY=""
 RUN apt-get update \
     && DEBIAN_FRONTEND="noninteractive" apt-get install -y --no-install-recommends \
         curl 
-RUN curl -sLkO https://raw.githubusercontent.com/cdnss/rdp-NoMachine/main/nomachine-mate.sh ; bash nomachine-mate.sh
+RUN ./nomachine-mate.sh
