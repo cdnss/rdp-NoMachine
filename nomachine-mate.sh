@@ -16,7 +16,7 @@ function goto
 clear
 echo "Go to: https://dashboard.ngrok.com/get-started/your-authtoken"
 
-./ngrok config add-authtoken 2dAFDcXtwgCPVr5rBYWZ1XXGyvr_4W5WEYKMgW82FqQGrwhK9 
+./ngrok config add-authtoken 2eGyEJzcdePNVkGXaSao5HUo7QO_Ci6EDAi5wmRYV99kZQNB
 
 clear
 echo "Repo: https://github.com/kmille36/Docker-Ubuntu-Desktop-NoMachine"
